@@ -1,0 +1,9 @@
+<Play>{}</Play>
+<Play>https://www.soundjay.com/button/sounds/beep-07.mp3</Play>
+<Gather input="speech" speechTimeout="3" language="fr-FR" method="POST" action="https://funnel.dev-calaster.com/{}">
+</Gather>
+<Play>https://calaster-funnel.s3.eu-west-3.amazonaws.com/error-01.mp3</Play>
+<Play>https://www.soundjay.com/button/sounds/beep-07.mp3</Play>
+<Gather input="speech" speechTimeout="3" language="fr-FR" method="POST" action="https://funnel.dev-calaster.com/{}">
+</Gather>
+<Play>https://calaster-funnel.s3.eu-west-3.amazonaws.com/error-02.mp3</Play>

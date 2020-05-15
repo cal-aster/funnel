@@ -6,8 +6,9 @@ from imports import *
 
 # Server instantiation
 app = Flask(__name__)
+# Add a secret key to your application
 app.secret_key = os.environ['FLASK_SECRET_KEY']
-# Handle headers properly
+# Handle cross origin properly - AWS requirement
 CORS(app)
 
 # Route to measure health response
