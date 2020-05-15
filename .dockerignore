@@ -1,0 +1,13 @@
+# Author:  Meryll Dindin
+# Date:    11 April 2020
+# Project: Funnel
+
+# Development
+.*
+*.pyc
+*.ipynb
+__pycache__
+
+# Configuration
+Docker*
+config-*

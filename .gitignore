@@ -1,0 +1,17 @@
+# Author:  Meryll Dindin
+# Date:    11 April 2020
+# Project: Funnel
+
+# Development
+*.pyc
+*.ipynb
+__pycache__
+.ipynb_checkpoints
+
+# Sensitive
+.ebextensions
+.elasticbeanstalk
+
+# Environment
+config-docker.env
+config-environment.json
